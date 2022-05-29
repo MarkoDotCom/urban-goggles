@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <%= Rails.configuration.database_configuration["development"]["database"] %>
     <%= yield %>
   </body>
 </html>
